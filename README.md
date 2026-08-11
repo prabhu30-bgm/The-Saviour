@@ -126,9 +126,9 @@ Required server variables:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb://127.0.0.1:27017/disaster_response
-JWT_SECRET=replace-with-a-long-random-secret
-JWT_REFRESH_SECRET=replace-with-a-different-long-random-secret
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_long_random_secret
+JWT_REFRESH_SECRET=your_long_random_refresh_secret
 JWT_EXPIRE=15m
 JWT_REFRESH_EXPIRE=7d
 CLIENT_URL=http://localhost:5173
